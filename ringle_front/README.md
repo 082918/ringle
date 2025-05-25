@@ -1,12 +1,22 @@
-# React + Vite
+# 전자상거래(eCommerce) 페이지 구현
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 구현 기술
 
-Currently, two official plugins are available:
+- Frontend: React, Vite
+- Backend: Node.js, Express
+- Database: MySQL (local)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔐 구현 기능
 
-## Expanding the ESLint configuration
+- 회원가입, 로그인 (JWT)
+- 상품 목록 및 상세 페이지
+- 장바구니 기능
+- 주문 기능
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖥️ 미리보기
+
+(스크린샷 첨부)
+
+## 📂 프로젝트 구조
+
+(폴더 구조 설명)
