@@ -1,0 +1,10 @@
+.eNavBar {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    background-color: #f8f9fa;
+  }
+  
+  .eContainer {
+    margin-left: 20px;
+  }
