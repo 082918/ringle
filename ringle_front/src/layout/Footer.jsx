@@ -13,7 +13,7 @@ function Footer() {
       <div className="footContatiner">
         <h2> ringle </h2>
         <p> 2025 최윤진 핸드크림 페이지 포트폴리오 </p>
-        <p> 사용 기술 : React, ReactBootstrap </p>
+        <p> 사용 기술 : React.js, React-Bootstrap, Vite, css, </p>
       </div>
     </>
   );

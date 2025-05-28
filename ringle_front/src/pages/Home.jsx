@@ -21,7 +21,7 @@ function Home() {
           {product.map((product, index) => (
             <Col md="6" className="contentBox" key={index}>
               <img
-                src={`./images/${product.img}`}
+                src={`/images/${product.img}`}
                 className="contentImg"
                 alt={product.item}
               />
