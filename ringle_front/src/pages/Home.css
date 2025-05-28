@@ -1,0 +1,36 @@
+.contentBox {
+    background-color: #fff;
+    padding: 16px 10px 16px 10px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 8px;
+    max-width: 280px;
+    min-width: 150px;
+    flex-grow: 1;
+}
+
+.contentImg {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin-bottom: 12px;
+}
+
+.company {
+    font-size: 13px;
+    font-weight: bold
+}
+    
+.item {
+    font-family: "NanumSquareNeoLight", sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+    
+.price {
+    font-family: 'GmarketSansMedium', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+}

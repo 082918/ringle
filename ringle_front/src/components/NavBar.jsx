@@ -1,6 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 // 리액트 부트스트랩 CSS 불러오기
-import pro1 from "../assets/pro1.png";
 import "./NavBar.css";
 import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 
