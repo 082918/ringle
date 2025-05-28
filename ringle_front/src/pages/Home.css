@@ -1,7 +1,21 @@
+.intro {
+    font-family: 'GongGothicMedium';
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.introContainer {
+    margin : auto;
+    width: 500px;
+    text-align: center;
+    align-items: center;
+}
+
 .contentBox {
     background-color: #fff;
-    padding: 16px 10px 16px 10px;
-    margin: 10px 0px 10px 0px;
+    padding: 10px 10px 16px 10px;
+    margin: 5px 0px 10px 0px;
     text-align: center;
     border-radius: 8px;
     max-width: 280px;
@@ -22,15 +36,15 @@
 }
     
 .item {
-    font-family: "NanumSquareNeoLight", sans-serif;
+    /* font-family: "NanumSquareNeoLight", sans-serif; */
     font-size: 15px;
     margin-top: 5px;
-    margin-bottom: 3px;
+    margin-bottom: 4px;
 }
     
 .price {
     font-family: 'GmarketSansMedium', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: #555;
 }

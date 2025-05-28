@@ -15,8 +15,8 @@ function NavBar() {
           <Navbar.Collapse id="basicNav">
             <Nav className="me-auto">
               <Nav.Link href="#Best">베스트</Nav.Link>
-              <Nav.Link href="#Best">제품</Nav.Link>
-              <Nav.Link href="#Best">기획전</Nav.Link>
+              <Nav.Link href="#product">제품</Nav.Link>
+              <Nav.Link href="#event">기획전</Nav.Link>
               <NavDropdown title="마이페이지" id="basicNavDropdown">
                 <NavDropdown.Item href="#action/3.1">장바구니</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">북마크</NavDropdown.Item>
