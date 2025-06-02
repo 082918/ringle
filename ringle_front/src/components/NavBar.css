@@ -1,11 +1,11 @@
 .eNavBar {
-    position: fixed;
-    top: 0px;
-    width: 100vw;
-    background-color: #f8f9fa;
-    z-index: 999;
-  }
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  background-color: #f8f9fa;
+  z-index: 999;
+}
   
-  .eContainer {
-    margin-left: 20px;
-  }
+.eContainer {
+  margin-left: 20px;
+}

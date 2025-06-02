@@ -1,19 +1,18 @@
-import { Container, Row, Col } from "react-bootstrap";
-import { useState } from "react";
-import Header from "../layout/Header.jsx";
 import data from "../data.jsx";
-import "../styles/fonts.css";
-import "./Home.css";
-import { Router } from "react-router-dom";
+import "./Best.css";
+import { useState } from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
-function Home() {
+function Best() {
   let [product] = useState(data);
-
   return (
     <>
-      <Header />
+      <div className="BestTop">
+        <h2> 랭킹 </h2>
+        <p style={{ marginBottom: "8px" }}>이번 주 랭킹! 최근 가장 핫한 상품</p>
+      </div>
       <div className="introContainer">
-        <div className="intro"> 이런 제품 어때요? </div>
+        <div className="intro"> 이번주 BEST 상품 </div>
         <hr style={{ width: "500px" }} />
       </div>
       <Container
@@ -28,15 +27,19 @@ function Home() {
                 className="contentImg"
                 alt={product.item}
               />
-              <div className="company">{product.company}</div>
+              <div className="rankCompany">
+                <div className="rank"> {index + 1}위 </div>
+                <div className="company">{product.company}</div>
+              </div>
               <div className="item">{product.item}</div>
               <div className="price">{product.price}</div>
             </Col>
           ))}
         </Row>
       </Container>
+      <div> BestTest</div>
     </>
   );
 }
 
-export default Home;
+export default Best;

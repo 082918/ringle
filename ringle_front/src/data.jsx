@@ -18,8 +18,8 @@ let data = [
     img: "pro3.png",
   },
   {
-    item: "헉슬리",
-    company: "퍼퓸 핸드크림(6종 택1)",
+    item: "퍼퓸 핸드크림(6종 택1)",
+    company: "헉슬리",
     price: "12,000원",
     img: "pro4.png",
   },
@@ -36,10 +36,10 @@ let data = [
     img: "pro6.png",
   },
   {
-    item: "핸드크림1",
-    company: "W.DRESSROOM",
-    price: "9,900원",
-    img: "pro1.png",
+    item: "망고씨드버터 퍼퓸 핸드크림 50ml",
+    company: "헤트라스",
+    price: "8,010원",
+    img: "pro7.png",
   },
   {
     item: "시어버터 드라이 스킨 핸드크림 30ml",

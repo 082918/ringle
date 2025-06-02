@@ -1,0 +1,45 @@
+body { 
+    margin-top: 70px;
+}
+
+.BestTop {
+    align-items: flex-end;
+    height: 70px;
+    display: flex;
+    gap : 7px;
+    background-color: bisque;
+}
+
+.rankCompany{
+    justify-content: center;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+}
+
+.rank {
+    margin-bottom: 5px;
+    padding: 0px 5px 0px 5px;
+    color: whitesmoke;
+    background-color: rgb(218, 0, 0);
+}
+
+.company {
+    margin-left: 5px;
+    font-size: 13px;
+    font-weight: bold
+}
+
+.item {
+    /* font-family: "NanumSquareNeoLight", sans-serif; */
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+    
+.price {
+    font-family: 'GmarketSansMedium', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+}
