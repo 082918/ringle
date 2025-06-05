@@ -2,7 +2,7 @@
 
 ## 구현 기술
 
-- Frontend: React, Vite
+- Frontend: React, Vite / React Bootstrap 라이브러리 사용
 - Backend: Node.js, Express
 - Database: MySQL (local)
 
