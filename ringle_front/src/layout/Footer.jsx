@@ -1,14 +1,22 @@
 import "../layout/Footer.css";
+import { MdOutlineAnnouncement } from "react-icons/md";
+import { RiCustomerService2Fill } from "react-icons/ri";
 
 function Footer() {
   return (
     <>
       <hr style={{ marginTop: "150px" }} />
       <div className="footTop">
-        공지사항
-        <hr />
-        고객센터
-        <hr />
+        <div className="footSelect">
+          <MdOutlineAnnouncement style={{ margin: "5px" }} />
+          <div>공지사항</div>
+        </div>
+        <hr style={{ width: "98%" }} />
+        <div className="footSelect">
+          <RiCustomerService2Fill style={{ margin: "5px" }} />
+          <div>고객센터</div>
+        </div>
+        <hr style={{ width: "98%" }} />
       </div>
       <div className="footContatiner">
         <h2> ringle </h2>

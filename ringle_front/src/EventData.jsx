@@ -1,4 +1,4 @@
-let data = [
+let EventData = [
   {
     item: "퍼퓸 핸드크림 50ml(4종 택1)",
     company: "체이싱래빗",
@@ -42,35 +42,11 @@ let data = [
     img: "pro7.png",
   },
   {
-    item: "퍼퓸 핸드크림 50ml 6종",
-    company: "스카이보틀",
-    price: "7,930원",
-    img: "pro8.png",
-  },
-  {
-    item: "퍼퓸키링 핸드크림 50ml 5종 택1",
-    company: "멈칫",
-    price: "15,110원",
-    img: "pro9.png",
-  },
-  {
-    item: "핸드앤네일 크림 75~100ml 12종 택1",
-    company: "카밀",
-    price: "3,950원",
-    img: "pro10.png",
-  },
-  {
-    item: "돌체 얼스피그50ml + 베르가못 50ml",
-    company: "마르마르디",
-    price: "12,900원",
-    img: "pro11.png",
-  },
-  {
-    item: "니치 퍼퓸 핸드크림 50ml 4종 택1",
-    company: "더프트앤도프트",
-    price: "5,530원",
-    img: "pro12.png",
+    item: "시어버터 드라이 스킨 핸드크림 30ml",
+    company: "록시땅",
+    price: "17,000원",
+    img: "pro1.png",
   },
 ];
 
-export default data;
+export default EventData;
