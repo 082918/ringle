@@ -1,4 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
+import babo from "../babo.png";
 import "./Header.css";
 
 function Header() {
@@ -6,24 +7,21 @@ function Header() {
     <>
       <Carousel fade>
         <Carousel.Item interval={8000}>
-          {/* <ExampleCarouselImage text="First slide" /> */}
           <div className="hdContatiner"> </div>
           <Carousel.Caption>
-            <h3>First slide label</h3>
+            <h3 className="captionText"> </h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          {/* <ExampleCarouselImage text="Second slide" /> */}
           <div className="hdContatiner"> </div>
           <Carousel.Caption>
-            <h3>Second slide label</h3>
+            <h3 className="captionTex">Second slide label</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          {/* <ExampleCarouselImage text="Third slide" /> */}
           <div className="hdContatiner"> </div>
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h3 className="captionTex">Third slide label</h3>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
