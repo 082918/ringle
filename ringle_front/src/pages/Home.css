@@ -36,15 +36,14 @@
 }
     
 .item {
-    /* font-family: "NanumSquareNeoLight", sans-serif; */
     font-size: 15px;
-    margin-top: 5px;
-    margin-bottom: 4px;
+    margin-top: 3px;
+    margin-bottom: 5px;
 }
     
 .price {
     font-family: 'GmarketSansMedium', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     color: #555;
 }

@@ -32,9 +32,9 @@ function Best() {
                   className="contentImg"
                   alt={product.item}
                 />
-                <div className="rank">{index + 1}</div>
+                <div className="BestRank">{index + 1}</div>
               </div>
-              <div className="company">{product.company}</div>
+              <div className="BestCompany">{product.company}</div>
               <div className="item">{product.item}</div>
               <div className="price">{product.price}</div>
             </Col>

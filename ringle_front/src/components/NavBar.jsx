@@ -1,11 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 // 리액트 부트스트랩 CSS 불러오기
 import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link, useNavigate, Outlet } from "react-router-dom";
 import Login from "../pages/login";
 import "./NavBar.css";
 
 function NavBar() {
+  let navigate = useNavigate();
   return (
     <>
       <Navbar expand="lg" className="eNavBar">
@@ -22,7 +23,11 @@ function NavBar() {
               <Nav.Link as={Link} to="/product">
                 제품
               </Nav.Link>
-              <Nav.Link as={Link} to="/event">
+              <Nav.Link
+                onClick={() => {
+                  navigate("/event");
+                }}
+              >
                 기획전
               </Nav.Link>
               <Nav className="test">
@@ -37,7 +42,7 @@ function NavBar() {
                     주문배송
                   </NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/logout">
-                    로그아웃
+                    로그인
                   </NavDropdown.Item>
                 </NavDropdown>
               </Nav>

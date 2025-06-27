@@ -22,7 +22,7 @@
     display: flex;
 }
 
-.rank {
+.BestRank {
     margin-bottom: 5px;
     padding: 0px 5px 0px 5px;
     color: whitesmoke;
@@ -35,23 +35,10 @@
     justify-content: center;
 }
 
-.company {
+.BestCompany {
     margin-left: 5px;
     font-size: 13px;
     font-weight: bold
-}
-
-.item {
-    font-size: 15px;
-    margin-top: 5px;
-    margin-bottom: 4px;
-}
-    
-.price {
-    font-family: 'GmarketSansMedium', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    color: #555;
 }
 
 .rankImg {

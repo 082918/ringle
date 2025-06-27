@@ -4,7 +4,7 @@ import Header from "../layout/Header.jsx";
 import data from "../data.jsx";
 import "../styles/fonts.css";
 import "./Home.css";
-import { Router } from "react-router-dom";
+import { Routes, Route, Link, Router } from "react-router-dom";
 
 function Home() {
   let [product] = useState(data);
@@ -16,6 +16,7 @@ function Home() {
         <div className="intro"> 이런 제품 어때요? </div>
         <hr style={{ width: "500px" }} />
       </div>
+      {/* <Link to="/detail"> 홈 </Link> */}
       <Container
         className="justify-content-center"
         style={{ textAlign: "center", marginTop: "50px" }}
