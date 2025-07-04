@@ -1,7 +1,14 @@
 .hdContatiner {
-    margin-top: 55px; /* NavBar 부분  */
     width: 100vw;
     height: 350px;
     background-color: gray;
+}
+
+.carousel {
+    margin: 0;
+    padding: 0;
+}
+.carousel-inner {
+    margin: 0;
     padding: 0;
 }
