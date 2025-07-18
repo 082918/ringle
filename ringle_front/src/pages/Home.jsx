@@ -5,6 +5,7 @@ import data from "../data.jsx";
 import "../styles/fonts.css";
 import "./Home.css";
 import { Routes, Route, Link, Router } from "react-router-dom";
+import axios from "axios";
 
 function Home() {
   let [product] = useState(data);
@@ -37,6 +38,17 @@ function Home() {
             ))}
           </Row>
         </Container>
+        <button
+          onClick={() => {
+            axios
+              .get("https://codingapple1.github.io/shop/data2.json")
+              .then((결과) => {
+                console.log(결과.data);
+              });
+          }}
+        >
+          더보기
+        </button>
       </div>
     </>
   );
